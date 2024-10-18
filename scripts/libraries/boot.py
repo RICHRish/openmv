@@ -8,7 +8,7 @@ BLUE_LED_PIN = 3
 good_image = 0
 
 pyb.LED(GREEN_LED_PIN).on()
-time.sleep(1)
+time.sleep(10)
 pyb.LED(GREEN_LED_PIN).off()
 # Initialize UART
 uart = UART(3, 115200)
