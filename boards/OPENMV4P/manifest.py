@@ -36,3 +36,8 @@ include("$(MPY_DIR)/extmod/asyncio")
 
 # Boot script
 freeze ("$(OMV_LIB_DIR)/", "_boot.py")
+
+freeze ("$(OMV_LIB_DIR)/", "nadir_fit.py")
+freeze ("$(OMV_LIB_DIR)/", "horizon_core.py")
+freeze ("$(OMV_LIB_DIR)/", "horizon_app.py")
+freeze ("$(OMV_LIB_DIR)/", "boot.py")
